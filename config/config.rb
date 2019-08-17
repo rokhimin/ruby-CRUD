@@ -4,7 +4,7 @@ require 'active_record'
 require 'configatron'
 require 'logger'
 	
-	#configuration HERE
+	#configuration HERE_
 	configatron.site = 'https://twitter.com/rokhiminwahid' #follow me
 	configatron.adapter = 'postgresql'
 	configatron.host = 'rokhimin.db.postgresql.com' # 'localhost' when u using locally psql
