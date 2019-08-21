@@ -26,7 +26,7 @@ but this without RoR :v very simple
 ![](https://i.imgur.com/Dyrum2l.jpg)
 
 ## License
-no.
+MIT License.
 
 
 
