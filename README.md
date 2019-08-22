@@ -1,5 +1,5 @@
 <a href="https://github.com/rokhimin/ruby-CRUD-postgreSql"><img src="https://media1.tenor.com/images/6e23cd74106fc9ff4fbc4540ba516426/tenor.gif?itemid=5321438" width="250" align="right"/></a>
-# Ruby-CRUD-PostgreSql
+# Ruby CRUD PostgreSql
 A ruby CRUD(Create, Read, Update, Delete) using postgreSql database
 
 ## Info
