@@ -1,4 +1,4 @@
 
-config/config.rb
-Gemfile.lock
-goorm.manifest
+/config/config.rb
+/Gemfile.lock
+/goorm.manifest
