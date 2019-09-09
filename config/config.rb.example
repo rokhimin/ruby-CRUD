@@ -7,10 +7,10 @@ require 'logger'
 	#configuration
 	configatron.site = 'https://twitter.com/rokhiminwahid' #follow me
 	configatron.adapter = 'postgresql'
-	configatron.host = 'rosie.db.elephantsql.com' # 'localhost' when u using locally psql
-	configatron.db = 'pwsdgwcx'
-	configatron.user = 'pwsdgwcx'
-	configatron.pass = '6ZpVZP_oER1qFdxon5svESRlYJ-tV1ct'
+	configatron.host = '' 
+	configatron.db = ''
+	configatron.user = ''
+	configatron.pass = ''
 	configatron.encoding = 'unicode'
 	configatron.pool = 5000
 

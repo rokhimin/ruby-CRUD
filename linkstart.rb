@@ -1,10 +1,10 @@
 
-load 'src/help.rb'
-load 'src/test.rb'
-load 'src/create.rb'
-load 'src/read.rb'
-load 'src/update.rb'
-load 'src/delete.rb'
+load 'app/help.rb'
+load 'app/test.rb'
+load 'app/create.rb'
+load 'app/read.rb'
+load 'app/update.rb'
+load 'app/delete.rb'
 
 #mainmenu
 class Mainmenu

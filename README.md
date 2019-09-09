@@ -25,6 +25,7 @@ but it's without RoR :v very simple
 ## Run
 ```ruby linkstart.rb```
 
+<a href="https://github.com/rokhimin/ruby-CRUD-postgreSql"><img src="https://i.imgur.com/PYHIbKN.gif" width="100%" align="center"/></a>
 ## Structure table
 ###### Magi => ::chara::,::rate::,::description:: (id,created_at,updated_at . autoGenerate)
 ![](https://i.imgur.com/Dyrum2l.jpg)
