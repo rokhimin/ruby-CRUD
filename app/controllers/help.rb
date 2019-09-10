@@ -1,5 +1,4 @@
-
-require_relative '../config/config.rb'
+require_relative '../initialize_db_ar.rb'
 
 #help
 class Help

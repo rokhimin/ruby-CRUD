@@ -1,10 +1,5 @@
-
-load 'app/help.rb'
-load 'app/test.rb'
-load 'app/create.rb'
-load 'app/read.rb'
-load 'app/update.rb'
-load 'app/delete.rb'
+#!/usr/bin/env ruby
+require_relative 'initialize.rb'
 
 #mainmenu
 class Mainmenu
@@ -12,7 +7,7 @@ class Mainmenu
 
 		menu = Mainmenu.new
 
-		puts "== MainMenu :<help>,<test_pg>,<test_ar>,<create>,<read>,<update>,<delete>,<exit>"
+		puts "======================================="
 		yourinput = gets.chomp
 
 		case yourinput
@@ -65,6 +60,7 @@ end
 
 			#ready
 			puts "== Welcome Ruby CRUD with postgresql Database "
+			puts "== MainMenu :<help>,<test_pg>,<test_ar>,<create>,<read>,<update>,<delete>,<exit>"
 			puts "== #{configatron.site}"
 			menu = Mainmenu.new
 			menu.whdzera

@@ -1,6 +1,4 @@
-
-require_relative '../config/config.rb'
-require_relative 'models/magi.rb'
+require_relative '../initialize_db_ar.rb'
 
 #testing connection psql
 class Postgresql

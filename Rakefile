@@ -9,6 +9,13 @@ namespace :db do
 end
 end
 
+namespace :run do
+  desc "running"
+  task :term do
+    sh 'ruby bin/linkstart.rb'
+  end
+end
+
 task :environment do
   load 'config/config.rb'
 end
