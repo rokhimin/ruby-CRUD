@@ -6,12 +6,12 @@
 # Ruby CRUD
 A ruby CRUD(Create, Read, Update, Delete) using MVC pattern
 
-## Info
+## About
 I use active record to control postgreSql like ruby on rails .
 but it's without RoR :v very simple
 
 ## Requires
-1. Ruby Language
+1. Ruby
 2. Postgresql (you can change if not like. only support SQL databases)
 
 ## Todo

@@ -1,11 +1,14 @@
-#call library
 require 'pg'
 require 'active_record'
 require 'configatron'
 require 'logger'
+require "webrick"
+require "erubis"
 	
 	#configuration
-	configatron.site = 'https://twitter.com/rokhiminwahid' #follow me
+	configatron.site = 'https://twitter.com/rokhiminwahid' #follow 
+	configatron.home = "/" 
+	configatron.port = 9000 
 	configatron.adapter = 'postgresql'
 	configatron.host = '' 
 	configatron.db = ''

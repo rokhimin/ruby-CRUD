@@ -17,6 +17,9 @@ namespace :run do
   task :term do
     sh 'ruby bin/terminal.rb'
   end
+  task :web do
+    sh 'ruby bin/webserver.rb'
+  end
 end
 
 namespace :gem do
