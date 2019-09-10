@@ -29,11 +29,18 @@ install gems
 create table db
 > ```rake db:migrate```
 
+## Test
+rspec
+> ```rake run:rspec```
+
 ## Run
 Terminal :
 ```rake run:term```
 
-<a href="https://github.com/rokhimin/ruby-CRUD-postgreSql"><img src="https://i.imgur.com/PYHIbKN.gif" width="100%" align="center"/></a>
+Web :
+```rake run:web```
+
+
 ## Structure table
 ###### Magi => ::chara::,::rate::,::description:: (id,created_at,updated_at . autoGenerate)
 ![](https://i.imgur.com/Dyrum2l.jpg)
