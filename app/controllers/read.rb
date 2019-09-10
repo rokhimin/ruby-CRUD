@@ -1,25 +1,17 @@
+require 'terminal-table'
 require_relative '../initialize_db_ar.rb'
 
 #read
 class Read
-	def re
-		puts "== Menu"
-		puts "== <all>seluruh isi table db, <by_id>cari lewat id"
-		whd = gets.chomp
-
-		case whd
-			when "all"
-			    data = ["isi table"]
-			    looks = Magi.all
-			    looks.each do |item|
-			        data << item.inspect
-			    end
-   				puts data
-				
-			else
-				looks1 = Magi.find(whd)
-				puts looks1.inspect
-		end
+	def term_read
+        magi = Magi.pluck(:id, :chara, :rate, :description)
+		rows = []
+		rows = magi.each{|x| x.join("\t")}
+		table = Terminal::Table.new :headings => ['id', 'Chara', 'Rate', 'Description'], :rows => rows
+			
+		puts "==" 
+		puts table
+			
 	end
 end
 

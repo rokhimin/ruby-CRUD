@@ -2,18 +2,25 @@ require_relative '../initialize_db_ar.rb'
 
 #delete
 class Delete
-	def del
-		puts "== Menu Deleted"
-		puts "masukan id yang ingin didelete"
+	def term_delete
+		puts "== MENU DELETED"
+		puts "== masukan id yang ingin didelete"
 		y_input = gets.chomp.to_i
 		init = Magi.find(y_input)
 		puts init.inspect
 
-		puts "anda yakin ingin menghapusnya?(Y)(N)..."
+		puts "== anda yakin ingin menghapusnya?(y)(n)..."
 		xxx = gets.chomp
-		init.destroy
-
-		puts "berhasil dihapus"
+		case xxx
+			when "y"
+				init.destroy
+			puts "== berhasil dihapus"
+				
+			when "n"
+				puts "== anda membatalkan deleted."
+			else
+				puts "== anda membatalkan deleted"
+		end
 	end
 end
 

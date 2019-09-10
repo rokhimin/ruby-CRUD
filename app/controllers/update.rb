@@ -2,14 +2,13 @@ require_relative '../initialize_db_ar.rb'
 
 #update
 class Update
-	def up
-		puts "== Menu Updated"
-		puts "masukan id , yg ingin diupdate..."
+	def term_update
+		puts "== MENU UPDATE"
+		puts "== masukan id , yg ingin diupdate..."
 		id = gets.chomp.to_i
 		init = Magi.find(id)
 		puts init.inspect
 
-		#pilihan yang ingin diubah
 		puts "apa yang ingin diubah..."
 		puts "<id>,<chara>,<rate>,<desc>"
 		y_input = gets.chomp

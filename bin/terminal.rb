@@ -4,10 +4,10 @@ require_relative 'initialize.rb'
 #mainmenu
 class Mainmenu
 	def whdzera
-
 		menu = Mainmenu.new
 
 		puts "======================================="
+		print "your input : "
 		yourinput = gets.chomp
 
 		case yourinput
@@ -16,34 +16,34 @@ class Mainmenu
 				start.he
 				menu.whdzera
 
-			when "test_pg"
+			when "pg"
 				start = Postgresql.new
 				start.pg
 				menu.whdzera
 
-			when "test_ar"
+			when "ar"
 				start = Activerecord.new
 				start.ar
 				menu.whdzera
 
 			when "create"
 				start = Create.new
-				start.cr
+				start.term_create
 				menu.whdzera
 
 			when "read"
 				start = Read.new
-				start.re
+				start.term_read
 				menu.whdzera
 			
 			when "update"
 				start = Update.new
-				start.up
+				start.term_update
 				menu.whdzera
 			
 			when "delete"
 				start = Delete.new
-				start.del
+				start.term_delete
 				menu.whdzera
 
 			when "exit" 
@@ -59,9 +59,10 @@ class Mainmenu
 end
 
 			#ready
+			puts "======================================="
 			puts "== Welcome Ruby CRUD with postgresql Database "
-			puts "== MainMenu :<help>,<test_pg>,<test_ar>,<create>,<read>,<update>,<delete>,<exit>"
-			puts "== #{configatron.site}"
+			puts "== MainMenu :<help>,<pg>,<ar>,<create>,<read>,<update>,<delete>,<exit>"
+			puts "== #{configatron.site} (follow guys :>)"
 			menu = Mainmenu.new
 			menu.whdzera
 
