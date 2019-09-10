@@ -2,6 +2,19 @@ require_relative '../initialize_db_ar.rb'
 
 #create
 class Create
+	def rspec
+		#create metod to rspec
+		init = Magi.new(	:id => 69,
+							:chara  => 'Jafar_created',
+		            		:rate => 6,
+		                    :description  => 'anjing, test read')
+		init.save
+		
+		#del method to rspec
+		bro = Magi.find(69)
+		bro.destroy
+		return 
+	end
 	
 	def term_create
 		puts "== Menu Created"
@@ -13,8 +26,8 @@ class Create
 		desc = gets.chomp
 		
 		init = Magi.new( :chara  => chara,
-		                      :rate => rate,
-		                      :description  => desc)
+		                    :rate => rate,
+		                	:description  => desc)
 
 		init.save
 

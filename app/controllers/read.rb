@@ -3,9 +3,10 @@ require_relative '../initialize_db_ar.rb'
 
 #read
 class Read
-	def self.rspec_read(x)
-		magi = Magi.find(x)
-		
+	def rspec(hi)
+        magis = Magi.pluck(:id)
+		hi = magis[0]
+		return hi
 	end
 	
 	def term_read

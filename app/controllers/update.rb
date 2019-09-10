@@ -2,6 +2,13 @@ require_relative '../initialize_db_ar.rb'
 
 #update
 class Update
+	def rspec(x)
+		init = Magi.find(x)
+		init.update(:id => x)
+		init.save
+		return
+	end
+	
 	def term_update
 		puts "== MENU UPDATE"
 		puts "== masukan id , yg ingin diupdate..."
