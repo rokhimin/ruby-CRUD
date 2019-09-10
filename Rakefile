@@ -11,9 +11,20 @@ end
 
 namespace :run do
   desc "running"
+  task :rspec do
+    sh 'rspec spec/crud_spec.rb'
+  end
   task :term do
     sh 'ruby bin/terminal.rb'
   end
+end
+
+namespace :gem do
+  desc "all about gem"
+  task :install do
+    sh 'bundle install'
+	puts "install gem success"
+	end
 end
 
 task :environment do
