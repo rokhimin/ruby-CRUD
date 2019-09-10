@@ -12,7 +12,7 @@ end
 namespace :run do
   desc "running"
   task :term do
-    sh 'ruby bin/linkstart.rb'
+    sh 'ruby bin/terminal.rb'
   end
 end
 

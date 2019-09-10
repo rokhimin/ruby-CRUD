@@ -14,6 +14,9 @@ but it's without RoR :v very simple
 1. Ruby
 2. PostgreSQL DB 
 
+## Todo
+- [x] added web version 
+
 ## Setup
 - set configuration, db ,etc 
 ```config/config.rb```
