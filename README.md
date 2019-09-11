@@ -36,11 +36,11 @@ Web :
 ```rake run:web```
 
 ## ss
-> terminal
-![](https://i.imgur.com/yQWV7C7.gif)
+- terminal
+> ![](https://i.imgur.com/yQWV7C7.gif)
 
-> website
-![](https://i.imgur.com/ji0L82j.jpg)
+- website
+> ![](https://i.imgur.com/ji0L82j.jpg)
 
 ## Structure table
 ###### Magi => ::chara::,::rate::,::description:: (id,created_at,updated_at . autoGenerate)
