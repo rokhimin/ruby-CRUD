@@ -8,16 +8,11 @@ A ruby CRUD(Create, Read, Update, Delete) using MVC pattern
 
 ## About
 I use active record to control postgreSql like ruby on rails .
-but it's without RoR :v very simple
+but it's without Rails or any framework :v very simple
 
 ## Requires
 1. Ruby
 2. Postgresql (you can change if not like. only support SQL databases)
-
-## Todo
-- [x] ~~terminal version~~
-- [x] web version
-- [x] ~~rspec TDD(test driven development)~~  
 
 ## Setup
 set configuration, db ,etc 
@@ -40,10 +35,15 @@ Terminal :
 Web :
 ```rake run:web```
 
+## ss
+> terminal
+![](https://i.imgur.com/yQWV7C7.gif)
+
+> website
+![](https://i.imgur.com/ji0L82j.jpg)
 
 ## Structure table
 ###### Magi => ::chara::,::rate::,::description:: (id,created_at,updated_at . autoGenerate)
-![](https://i.imgur.com/Dyrum2l.jpg)
 
 ## License
 MIT License.
