@@ -1,6 +1,6 @@
-![Lang](https://img.shields.io/badge/Language-Ruby-red)
+![Lang](https://img.shields.io/badge/language-Ruby-red)
 ![db](https://img.shields.io/badge/db-PostgreSql-yellow)
-![Coverage Status](https://img.shields.io/badge/coverage-99%25-green)
+![Coverage Status](https://img.shields.io/badge/coverage-99%25-brightgreen)
 
 <a href="https://github.com/rokhimin/ruby-CRUD-postgreSql"><img src="https://media1.tenor.com/images/6e23cd74106fc9ff4fbc4540ba516426/tenor.gif?itemid=5321438" width="250" align="right"/></a>
 # Ruby CRUD
